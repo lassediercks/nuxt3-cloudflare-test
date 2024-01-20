@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     payloadExtraction: true,
   },
   nitro: {
-    preset: "cloudflare",
+    preset: "cloudflare-pages",
   },
   devServer: {
     port: parseInt(process.env.PORT || "") || 5000, // default: 8000
@@ -14,7 +14,9 @@ export default defineNuxtConfig({
   routeRules: {
     "/prerendered": { prerender: true },
     "/swr": { swr: 10 },
+    "/swrtrue": { swr: true },
     "/isr": { isr: 10 },
+    "/isrtrue": { isr: true },
     "/ssr": { ssr: true },
     "/nossr": { ssr: false },
   },

@@ -2,6 +2,7 @@
   <div>
     <a href="/">home</a>
     <a href="/swr">swr</a>
+    <a href="/swrtrue">swrtrue</a>
     <a href="/defaultcomponent">defaultcomponent</a>
     <a href="/defaultserver">defaultserver</a>
     <a href="/isr">isr</a>
