@@ -7,7 +7,9 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch("/api/hello");
+const { data } = await useFetch(
+  "https://random-data-api.com/api/v2/users?size=1"
+);
 </script>
 
 <style scoped></style>
