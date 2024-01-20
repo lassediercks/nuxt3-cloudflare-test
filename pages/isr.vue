@@ -6,9 +6,7 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch(
-  "https://random-data-api.com/api/v2/users?size=1"
-);
+const { data } = await useFetch("https://dummyjson.com/products/9");
 </script>
 
 <style scoped></style>

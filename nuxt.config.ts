@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     payloadExtraction: true,
   },
   nitro: {
-    preset: "cloudflare-pages",
+    preset: "cloudflare",
   },
   devServer: {
     port: parseInt(process.env.PORT || "") || 5000, // default: 8000
