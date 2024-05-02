@@ -1,14 +1,19 @@
 <template>
   <div>
-    <a href="/">home</a>
-    <a href="/swr">swr</a>
-    <a href="/swrtrue">swrtrue</a>
-    <a href="/defaultcomponent">defaultcomponent</a>
-    <a href="/defaultserver">defaultserver</a>
-    <a href="/isr">isr</a>
-    <a href="/nossr">nossr</a>
-    <a href="/prerendered">prerendered</a>
-    <a href="/ssr">ssr</a>
+    <nuxt-link to="/">home</nuxt-link>
+    <nuxt-link to="/swr">swr</nuxt-link>
+    <nuxt-link to="/swrtrue">swrtrue</nuxt-link>
+    <nuxt-link to="/defaultcomponent">defaultcomponent</nuxt-link>
+    <nuxt-link to="/defaultserver">defaultserver</nuxt-link>
+    <nuxt-link to="/isr">isr</nuxt-link>
+    <nuxt-link to="/nossr">nossr</nuxt-link>
+    <nuxt-link to="/prerendered">prerendered</nuxt-link>
+    <nuxt-link to="/ssr">ssr</nuxt-link>
+    <nuxt-link to="/somethingsomething">somewhere local</nuxt-link>
+    <nuxt-link to="/gojsdapgjado">somewhere dynamic</nuxt-link>
+    <nuxt-link to="/gojsdapsadgasdggjado">somewhere dynamic 2</nuxt-link>
+
+    <br />
 
     <NuxtPage />
 
@@ -19,6 +24,7 @@
   </div>
 </template>
 
+<script lang="ts" setup></script>
 <style>
 a {
   display: block;
